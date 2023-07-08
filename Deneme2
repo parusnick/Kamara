@@ -1,0 +1,25 @@
+# İNPUT FONKSİYONU 
+ 
+ ad =input("Adın ne aslanım ?: ") 
+ yaş= int(input("Kaç yaşındasın aslanım ?:")) # Sayısal değer girilmesini istiyorsan başına "int" belirmek gerekir. 
+ yaş= yaş+1  # Özellikle işlem yapılacak ise bu girdilerin hangi tür değişken olduğu belirtilmeli. 
+ boy= float(input("Boyun ne kadar?: ")) #Girdi ondalık sayı içerebilir ise değer "float" olarak tanımlanmalıdır. 
+ print("Merhaba "+ ad) # yazdırıken "str" değer ile str değişken değişiklik gerektirmeden yazılabilir. 
+ print("Sen ",yaş," yaşındasın") # İçerisinde "str" ve "int" değişken olan değerler yazdırılırken ya virgül kullanılmalı 
+# Ya da farklı olan değer "int" sözel olan "str" ye dönüştürülüp yazdırılır. 
+ print("Boyun "+str(boy)+" cm") 
+ 
+ İmport Math 
+ 
+ pi=3.14 
+ x=1 
+ y=2 
+ z=3 
+ print(round(pi)) #"round" komutu ile ondalık sayıyı tam sayıya yuvarlar. 
+ print(math.ceil(pi)) # "math.ceil" komutu ile ondalık sayıyı bir üst tam sayıya tamamlar. 
+ print(math.floor(pi)) # "math.floor" komutu ile ondalık sayıyı en yakın tam sayıya tamamlar. 
+ print(abs(pi)) # Sayının Mutlak değerini verir. 
+ print(pow(pi,2)) # Girilen sayının üstel kuvvetini alır. 
+ print(math.sqrt(pi)) # Girilen sayının karekökünü bulur. 
+ print(max(x,y,z,pi)) #Girilen sayılardan en büyüğünü bulur. 
+ print(min(x,y,z,pi)) # Girilen sayılardan en küçüğünü bulur. 
